@@ -1,0 +1,31 @@
+
+.not-found-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    padding: 20px;
+}
+
+.not-found-image{
+    width: 100%;
+}
+.not-found-text{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: white;
+}
+
+.not-found-heading{
+    font-family: "Roboto";
+    font-size: 30px;
+    color: white;
+}
+
+@media screen and (min-width:576px){
+    .not-found-image{
+        width: 30%;
+    }
+}

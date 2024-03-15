@@ -1,0 +1,216 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.jobs-main-container{
+    background-color: black;
+    padding: 20px;
+}
+
+.search-container-small{
+    display: flex;
+}
+
+.search-container-large{
+    display: none;
+}
+
+.search-box-small{
+    height: 30px;
+    width: 70%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2c2f35;
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+.search-icon{
+    height: 16px;
+    width: 16px;
+}
+
+.icon-container{
+    height: 28px;
+    width: 25px;
+    color: white;
+    background-color: #2c2f35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2c2f35;
+    cursor: pointer;
+}
+
+.checkbox-selection{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.hr-line{
+    border-width: 1px;
+    border-style: solid;
+    border-color: aqua;
+}
+
+.typeof-employment-title{
+    color: white;
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.checkbox-options{
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+.checkbox{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.job-cards-container{
+    padding-left: 0px;
+}
+
+
+.profile-container{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/profile-bg.png");
+    background-size: cover;
+    padding: 5px;
+}
+
+.profile-image{
+    height: 50px;
+    width: 50px;
+}
+
+.profile-title{
+    color: #6366f1;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.profile-description{
+    color: #2c364c;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.jobs-loading-spinner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.retry-button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+.retry-button{
+    height: 35px;
+    width: 100px;
+    color: white;
+    background-color:  #6366f1;
+    font-size: 14px;
+    font-family: "Roboto";
+    border-radius: 4px;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.no-jobs-image{
+    width: 80%;
+}
+
+.no-jobs-text{
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 100;
+}
+
+@media screen and (min-width:576px) {
+
+    .jobs-main-container{
+        display: flex;
+        min-height: 100vh;
+        padding: 60px;
+    }
+    .search-container-small{
+        display: none;
+    }
+    .search-container-large{
+        display: block;
+        display: flex;
+    }
+    .search-box-large{
+        display: block;
+    }
+    .profile-sortings-container-large{
+        min-width: 35%;
+        margin-right: 5%;
+    }
+    .profile-container{
+        padding: 10px;
+    }
+    
+    .profile-image{
+        height: 65px;
+        width: 65px;
+    }
+
+    .profile-title{
+        font-size: 22px;
+    }
+
+    .profile-description{
+        font-size: 17px;
+    }
+    .search-box-large{
+        height: 40px;
+        min-width: 70%;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #2c2f35;
+        background-color: transparent;
+        padding: 20px;
+        color: white;
+        margin-bottom: 15px;
+        margin-right: 1px;
+        font-size: 18px;
+    }
+    .icon-container{
+        height: 40px;
+        width: 30px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: white;
+    }
+    .typeof-employment-title{
+        font-size: 22px;
+    }
+    
+    .checkbox-options{
+        font-size: 18px;
+    }
+
+    .no-jobs-text{
+        font-size: 16px;
+    }
+}

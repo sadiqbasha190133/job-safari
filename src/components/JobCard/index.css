@@ -1,0 +1,164 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.jobsCard-main-container{
+    background-color: #2c2f35;
+    list-style: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.job-card-link-element{
+    text-decoration: none;
+}
+.rating-flex{
+    display: flex;
+}
+
+.logo-flex{
+    display: flex;
+}
+
+.locationEmployment-salary-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-role-title{
+    color: white;
+    font-family: "Roboto";
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+.rating{
+    color: white;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.job-card-hr-line{
+    border-width: 1px;
+    border-style: solid;
+    border-color: aqua;
+    margin-top: 0px;
+}
+
+.rating-star-icon{
+    color: yellow;
+    height: 15px;
+    width: 15px;
+    margin-right: 3px;
+    margin-top: 1px;
+}
+
+.location-employment-flex{
+    display: flex;
+}
+
+.company-logo{
+    height: 38px;
+    width: 38px;
+    margin-right: 10px;
+}
+
+.location-icon{
+    color: white;
+    height: 15px;
+    width: 15px;
+    margin-right: 4px;
+}
+
+.employmentType-icon{
+    color: white;
+    height: 20px;
+    width: 16px;
+    margin-right: 4px;
+}
+
+.location-employment-title{
+    color: white;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.package-per-annum-title{
+    color: white;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.description-title{
+    color: white;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-top: 0px;
+    font-weight: 200;
+}
+
+@media screen and (min-width:576px){
+    .jobsCard-main-container{
+        border-radius: 15px;
+        padding: 20px;
+        margin-bottom: 18px;
+    }
+    
+    .job-role-title{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .rating{
+        font-size: 17px;
+    }
+
+    .rating-star-icon{
+        color: yellow;
+        height: 16px;
+        width: 16px;
+        margin-right: 4px;
+        margin-top: 2px;
+    }
+
+    .company-logo{
+        height: 45px;
+        width: 45px;
+    }
+
+    .location-icon{
+        
+        height: 17px;
+        width: 17px;
+        margin-right: 5px;
+    }
+
+    .employmentType-icon{
+        height: 22px;
+        width: 18px;
+        margin-right: 5px;
+    }
+
+    .location-employment-title{
+        font-size: 17px;
+    }
+
+    .package-per-annum-title{
+        font-size: 17px;
+    }
+
+    .description-title{
+        font-size: 15px;
+    }
+
+
+    
+}
