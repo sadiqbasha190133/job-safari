@@ -3,6 +3,7 @@
 
 .home-main-container{
    background-image: url("https://assets.ccbp.in/frontend/react-js/home-sm-bg.png");
+   
    background-size: cover;
    min-height: 100vh;
 }
@@ -48,7 +49,7 @@
 
 @media screen and (min-width:576px){
 
-    .home-main-container{
+     .home-main-container{
         background-image: url("https://assets.ccbp.in/frontend/react-js/home-lg-bg.png");
         min-width: 100vw;
         min-height: 100vh;
